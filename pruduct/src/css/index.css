@@ -62,11 +62,13 @@
 }
 .bot h3{
     font-family:MicrosoftYaHei;
-    font-size:20px;
+    font-size:24px;
     color:#01b0b9;
     text-align:left;
+    margin-top:10px;
 }
 .bot p{
+    margin-top: 10px;
     font-size: 12px;
 }
 .list{
