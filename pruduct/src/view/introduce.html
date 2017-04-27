@@ -2,7 +2,7 @@
     <div class="tab-content col-sm-10">
         <!--<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">-->
             <label class="txt col-sm-12" id="info">
-                <input type="text" class="col-sm-10" placeholder="基本信息">
+                <input type="text" class="col-sm-12" placeholder="基本信息">
             </label>
             <ul>
                 <li>责任人:张鑫 13070162187</li>
@@ -25,7 +25,7 @@
                     <!--<render-msg data="listDate"></render-msg>-->
                 <!--</li>-->
             </ol>
-            <div class="reply"><input type="text"  ng-model="txt" ng-keydown="reply(txt)" class="msg"></div>
+            <div class="reply"><textarea class="form-control replys" rows="3" ng-model="txt" ng-keydown="reply(txt)"></textarea></div>
             <p class="col-sm-2 btn-parent" ng-click="vray(txt)"><button class="btn">发送</button></p>
         <!--</div>-->
     </div>
